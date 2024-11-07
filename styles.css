@@ -1,0 +1,168 @@
+body {
+    background-color: #FCF1EA;
+    color: #004D3F;
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    padding: 10px 0;
+    background-color: #FCF1EA;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004D3F;
+}
+
+.brand-logo {
+    height: auto;
+    width: 80px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: #004D3F !important;
+}
+
+.footer {
+    background-color: #004D3F;
+    color: #FCF1EA;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+.footer h5 {
+    color: #FCF1EA;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #FCF1EA;
+    text-decoration: none;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-card h4 {
+    color: #004D3F;
+}
+
+.product-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.rating {
+    color: #E6B373;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #004D3F;
+}
+
+.carousel-item {
+    height: 500px;
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    padding: 20px;
+    border-radius: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    background-color: #004D3F !important;
+    border-color: #004D3F !important;
+}
+
+.btn-primary:hover {
+    background-color: #003D32 !important;
+    border-color: #003D32 !important;
+}
+
+.page-item.active .page-link {
+    background-color: #E6B373 !important;
+    border-color: #E6B373 !important;
+    color: white !important;
+}
+
+.page-link {
+    color: #E6B373 !important;
+}
+
+.page-link:hover {
+    background-color: #e9ecef;
+    color: #E6B373 !important;
+} 

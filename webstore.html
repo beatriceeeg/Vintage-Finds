@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VintageFinds - Toko Tas Vintage Branded</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="vintagefinds/logo.png" alt="VintageFinds Logo" class="brand-logo">
+                VintageFinds
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Koleksi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="vintagefinds/slide1.jpg" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption">
+                        <h1>Temukan Tas Vintage Impian Anda</h1>
+                        <p>Koleksi tas vintage eksklusif dengan desain yang timeless</p>
+                        <a href="#" class="btn btn-primary btn-lg">Jelajahi Koleksi</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="vintagefinds/slide2.jpg" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption">
+                        <h1>Kualitas Premium</h1>
+                        <p>Tas vintage branded dengan kondisi terbaik</p>
+                        <a href="#" class="btn btn-primary btn-lg">Lihat Koleksi</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="vintagefinds/slide3.jpg" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption">
+                        <h1>Limited Edition</h1>
+                        <p>Dapatkan tas vintage edisi terbatas</p>
+                        <a href="#" class="btn btn-primary btn-lg">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h2 class="text-center mb-5">Koleksi Unggulan</h2>
+        <div class="row" id="productList">
+            <!-- Produk akan dimuat di sini oleh JavaScript -->
+        </div>
+
+        <!-- Pagination -->
+        <nav aria-label="Product pagination">
+            <ul class="pagination justify-content-center mt-4">
+                <li class="page-item active" id="page1"><a class="page-link" href="#" onclick="changePage(1)">1</a></li>
+                <li class="page-item" id="page2"><a class="page-link" href="#" onclick="changePage(2)">2</a></li>
+            </ul>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>VintageFinds</h5>
+                    <p>Menghadirkan koleksi tas vintage branded terbaik untuk melengkapi gaya fashion Anda.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Tautan</h5>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Koleksi</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Layanan</h5>
+                    <ul>
+                        <li><a href="#">Cara Pemesanan</a></li>
+                        <li><a href="#">Pengiriman</a></li>
+                        <li><a href="#">Garansi Produk</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Hubungi Kami</h5>
+                    <ul>
+                        <li>Jl. Vintage No. 123, Jakarta</li>
+                        <li>+62 821-2345-6789</li>
+                        <li>info@vintagefinds.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 VintageFinds. Hak Cipta Dilindungi.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-white me-3">Syarat & Ketentuan</a>
+                    <a href="#" class="text-white">Kebijakan Privasi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
